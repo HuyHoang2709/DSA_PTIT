@@ -10,7 +10,7 @@ void Init()
 {
     OK = 0;
     cin >> n >> k;
-    for (int i = 1; i <= k; ++i) C[i] = i;
+    for (int i = 0; i <= k; ++i) C[i] = i;
 }
 
 void Generate()
