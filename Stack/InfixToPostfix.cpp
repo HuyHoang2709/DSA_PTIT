@@ -5,7 +5,7 @@ using namespace std;
 /*
 Input:
 2
-(A+(B+C)
+(A+(B+C))
 ((A*B)+C)
 
 Output:
