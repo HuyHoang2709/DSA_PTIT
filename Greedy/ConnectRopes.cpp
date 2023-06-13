@@ -25,7 +25,7 @@ int main()
     long long kq = 0;
     while (q.size() >= 2)
     {
-        // Cu lien tuc lay ra 2 day co chieu dai nho nhat hien tai de noi voi nhau, toi khi toan bo day da duoc noi
+        // Cứ liên tục lấy ra 2 dây có chiều dài nhỏ nhất hiện tại để nối với nhau, tới khi toàn bộ dây đã được nối
         int min1 = q.top();
         q.pop();
         int min2 = q.top();
