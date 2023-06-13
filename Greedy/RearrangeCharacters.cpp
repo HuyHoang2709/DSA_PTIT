@@ -13,7 +13,7 @@ int main()
     n = s.size();
     for (int i = 0; i < n; ++i) ++a[s[i]];
 
-    // Tim ki tu co so lan xuat hien nhieu nhat trong chuoi
+    // Tìm kí tự có số lần xuất hiện nhiều nhất trong chuỗi
     int m = *max_element(a, a + 'z');
     
     if ((m - 1) * d < n) cout << 1;
