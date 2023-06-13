@@ -7,7 +7,7 @@ int C[30];
 
 void print()
 {
-    for (int i = 0; i <= k; ++i) cout << C[i] << ' ';
+    for (int i = 1; i <= k; ++i) cout << C[i] << ' ';
     cout << '\n';
 }
 
